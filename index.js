@@ -45,6 +45,10 @@ class ServerlessDynamodbLocal {
                                 usage: "The port number that DynamoDB will use to communicate with your application. If you do not specify this option, the default port is 8000",
                                 type: "string"
                             },
+                            host: {
+                               
+                                usage: "The host that DynamoDB will use to communicate with your application. If you do not specify this option, the default is localhost"
+                            },                            
                             cors: {
                                 shortcut: "c",
                                 usage: "Enable CORS support (cross-origin resource sharing) for JavaScript. You must provide a comma-separated \"allow\" list of specific domains. The default setting for -cors is an asterisk (*), which allows public access.",
